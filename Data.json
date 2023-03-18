@@ -1,4 +1,5 @@
-{"ourIntents": [
+ {
+    "ourIntents": [
 
              {"tag": "age",
               "patterns": ["how old are you?"],
@@ -15,6 +16,10 @@
              {"tag": "name",
               "patterns": ["what's your name?", "who are you?"],
               "responses": ["I have no name yet", "You can give me one, and I will appreciate it"]
-             }
+             },
+             {  "tag": "exit",
+                "patterns": ["quit", "exit"],
+                "responses": ["Okay, Good bye!!", "Bye, Have a nice day "]
+            }
 
 ]}
